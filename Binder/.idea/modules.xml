@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Binder.iml" filepath="$PROJECT_DIR$/Binder.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/binder_server/binder_server.iml" filepath="$PROJECT_DIR$/binder_server/binder_server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Binder.iml" filepath="$PROJECT_DIR$/.idea/modules/Binder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Binder.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Binder.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/binder_server/Binder.binder_server.iml" filepath="$PROJECT_DIR$/.idea/modules/binder_server/Binder.binder_server.iml" />
     </modules>
   </component>
 </project>

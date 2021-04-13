@@ -14,9 +14,11 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import java.util.List;
 
-public class MainActivity extends Activity implements View.OnClickListener {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     private Button bindService;
     private Button unbindService;
     private Button plus;
@@ -119,7 +121,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
         PackageManager pm = context.getPackageManager();
         List<ResolveInfo> resolveInfo = pm.queryIntentServices(implicitIntent, 0);
         // Make sure only one match was found
-        if (resolveInfo == null || resolveInfo.size() != 1) {
+        if (resolveInfo.size() != 1) {
             return null;
         }
         // Get component info and create ComponentName

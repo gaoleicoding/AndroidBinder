@@ -1,1 +1,2 @@
+include ':mmap'
 include ':app', ':binder_server'

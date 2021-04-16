@@ -1,2 +1,3 @@
+include ':binder_pool'
 include ':mmap'
 include ':app', ':binder_server'

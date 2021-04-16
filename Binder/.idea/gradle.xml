@@ -10,9 +10,9 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/aidl_server" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/binder_pool" />
-            <option value="$PROJECT_DIR$/binder_server" />
             <option value="$PROJECT_DIR$/mmap" />
           </set>
         </option>

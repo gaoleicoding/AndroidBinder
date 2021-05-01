@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gl.messenger_server">
+
+    <!-- 自定义权限 -->
+    <permission
+        android:name="com.gl.messenger_server"
+        android:description="@string/permission_des"
+        android:protectionLevel="signature" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Binder">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- messenger start -->
+        <!-- step5: 注册服务 设置 action-->
+        <!-- 这里添加了一个自定义的权限 -->
+        <service
+            android:name=".MessengerService"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="com.gl.messenger_server" />
+        <!-- messenger end -->
+    </application>
+
+</manifest>

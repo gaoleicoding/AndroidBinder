@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">messenger_server</string>
+    <string name="permission_des">自定义权限测试</string>
+</resources>

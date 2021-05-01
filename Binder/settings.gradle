@@ -1,3 +1,7 @@
+include ':messenger_server'
+include ':messenger_client'
+include ':abridge_client'
+include ':abridge_server'
 include ':binder_pool'
 include ':mmap'
-include ':app', ':aidl_server'
+include ':aidl_client', ':aidl_server'

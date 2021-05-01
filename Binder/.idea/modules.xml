@@ -3,9 +3,13 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Binder.iml" filepath="$PROJECT_DIR$/.idea/modules/Binder.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/binder_server/Binder.aidl_server.iml" filepath="$PROJECT_DIR$/.idea/modules/binder_server/Binder.aidl_server.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Binder.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Binder.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/abridge_client/Binder.abridge_client.iml" filepath="$PROJECT_DIR$/.idea/modules/abridge_client/Binder.abridge_client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/abridge_server/Binder.abridge_server.iml" filepath="$PROJECT_DIR$/.idea/modules/abridge_server/Binder.abridge_server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Binder.aidl_client.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Binder.aidl_client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/aidl_server/Binder.aidl_server.iml" filepath="$PROJECT_DIR$/.idea/modules/aidl_server/Binder.aidl_server.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/binder_pool/Binder.binder_pool.iml" filepath="$PROJECT_DIR$/.idea/modules/binder_pool/Binder.binder_pool.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/messenger_client/Binder.messenger_client.iml" filepath="$PROJECT_DIR$/.idea/modules/messenger_client/Binder.messenger_client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/messenger_server/Binder.messenger_server.iml" filepath="$PROJECT_DIR$/.idea/modules/messenger_server/Binder.messenger_server.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/mmap/Binder.mmap.iml" filepath="$PROJECT_DIR$/.idea/modules/mmap/Binder.mmap.iml" />
     </modules>
   </component>
